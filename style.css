@@ -15,6 +15,9 @@
 .h,.f,.pe,.c{
     margin-right:30px;
 }
+.names{
+    margin-left: 100px;
+}
 .carousel-inner{
     max-height: 680px;
     margin-bottom: 20px;
@@ -35,15 +38,16 @@
 }
 
 @media screen and (max-width:992px) {
-    .navbar-brand{
-        margin:0px;
-        font-size: 20px;
-    }
     .nav-mob{
         text-align: center;
         opacity: 0.5;
     }
-    .h,.f,.pe,.c,.nav-gap{
-        margin-right:0px;
+    a.navbar-brand.names{
+        font-size: 18px;
+        margin-left: 16px;
     }
+     .h,.f,.pe,.c,.nav-gap{
+        margin-right:0px;
+    } 
+    
 }
